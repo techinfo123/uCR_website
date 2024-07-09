@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+	<style type="text/css">
+	body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/our_work.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto auto;
+    /* Adjust the min width as needed */
+    gap: 24px; /* Adjust gap size as needed */
+    padding: 2px; /* Optional: padding around the gallery */
+    
+}
+
+.gallery article {
+    box-sizing: border-box;
+}
+
+.gallery img, .gallery video {
+    width: 200%;
+    height: 280px;
+    border: 2px solid #ccc; /* Adjust border size and color as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better appearance */
+    transition: transform 0.3s; /* Optional: add a transition for a hover effect */
+    background-color: black;
+    object-fit: cover;
+}
+
+.gallery img:hover, .gallery video:hover {
+    transform: scale(1.05); /* Optional: scale up the image or video slightly on hover */
+}
+
+
+
+
+	</style>
+
+	<body class="is-preload">
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Our Work</h2>
+						<p></p>
+					</header>
+
+					<!-- Gallery  -->
+					        <div class="gallery">
+							<article class="from-left">
+							<video controls>
+                            <source src="Videos/video1.mp4" type="video/mp4">
+                            </video>
+							</article>
+							<article class="from-right">
+							<video controls>
+                            <source src="Videos/video2.mp4" type="video/mp4">
+                            </video>
+							</article>
+							<article class="from-left">
+							<video controls>
+                            <source src="Videos/video3.mp4" type="video/mp4">
+                            </video>
+							</article>
+							<article class="from-right">
+							<video controls>
+                            <source src="Videos/video3.mp4" type="video/mp4">
+                            </video>
+							</article>
+							<article class="from-left">
+							<video controls>
+                            <source src="Videos/video5.mp4" type="video/mp4">
+                            </video>
+							</article>
+							<article class="from-right">
+							<video controls>
+                            <source src="Videos/video3.mp4" type="video/mp4">
+                            </video>
+							</article>
+						</div>	
+
+				</div>
+			</section>
+
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
